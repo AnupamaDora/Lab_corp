@@ -81,6 +81,7 @@ WebElement closetooltipbutton=driver.findElement(By.xpath("//button[@class='clos
 jse.executeScript("arguments[0].click()",closetooltipbutton );
 WebElement ReturnToSearchButton=driver.findElement(By.xpath("//button[@class='btn btn-secondary ae-button']"));
 jse.executeScript("arguments[0].click()",ReturnToSearchButton );*/
+driver.close();
 }
 }
 
